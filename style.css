@@ -92,7 +92,8 @@ h1 {
     justify-content: space-between;
 }
 .cta-nav,
-.cta {
+.cta,
+.cta-about {
     background-color: #fd3fb3;
     color: white;
 }
@@ -147,7 +148,6 @@ h1 {
 /* Section Features */
 
 .features {
-    background-color: rgb(232, 232, 232);
     display: flex;
     justify-content: space-around;
     padding: 30px 0;
@@ -183,4 +183,54 @@ h1 {
         width: 50%;
     }
 }
-/* Je dois regler l'affichage des features en mobile pour que ça soit beau*/
+
+/* Section About*/
+
+.about-us {
+    display: flex;
+    width: 90%;
+    margin: 30px auto;
+    border: transparent;
+    box-shadow: 5px 5px 45px 5px rgba(0, 0, 0, 0.19);
+}
+.img-about {
+    width: 50%;
+    background-size: contain;
+    text-align: center;
+    height: 500px;
+}
+.text-about-us {
+    padding: 40px;
+    width: 50%;
+    font-weight: 300;
+}
+.text-about-us h2 {
+    margin-top: 0;
+}
+.text-about-us p {
+    padding-bottom: 16px;
+}
+.cta-about {
+    padding: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    .about-us {
+        flex-direction: column-reverse;
+        width: 80%;
+    }
+    .img-about {
+        width: 100%;
+    }
+    .text-about-us {
+        width: 100%;
+    }
+    .cta-about {
+        width: 90%;
+        display: inline-block;
+
+        text-align: center;
+    }
+}
+@mobile only screen and (max-width : 500px) {
+}
