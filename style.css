@@ -288,3 +288,56 @@ h1 {
         width: 90%;
     }
 }
+
+/* Section avantages */
+
+.avantages-title {
+    text-align: center;
+}
+.avantages-title span {
+    border-bottom: #b12a7d solid 4px;
+}
+.avantages {
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px auto;
+}
+.avantages-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.icon-svg-1,
+.icon-svg-2,
+.icon-svg-3,
+.icon-svg-4 {
+    width: 80px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.icon-svg-1 {
+    background-color: #f64968;
+}
+.icon-svg-2 {
+    background-color: #d4cdff;
+}
+.icon-svg-3 {
+    background-color: #fffacd;
+}
+.icon-svg-4 {
+    background-color: #c9ffc0;
+}
+.text-avantage {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 500px) {
+    .avantages-icon {
+        width: 50%;
+    }
+}
