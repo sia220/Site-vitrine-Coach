@@ -404,3 +404,83 @@ h1 {
         flex-wrap: wrap;
     }
 }
+/* Section Formulaire*/
+
+.form {
+    background-image: linear-gradient(to bottom, rgba(20, 20, 24, 0.52), rgba(68, 58, 65, 0.73)), url(./assets/alteres.jpg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+.form-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 70%;
+    margin: auto;
+}
+.form-title {
+    padding-top: 0;
+    margin-top: 0;
+}
+.form-card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+    border-radius: 4px;
+    height: 350px;
+    width: 350px;
+    padding-bottom: 0;
+}
+.text-form {
+    padding: 10px;
+    align-items: center;
+    color: white;
+    width: 50%;
+    padding-top: 0;
+}
+.form-card label {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.form-card input {
+    height: 40px;
+    margin-bottom: 10px;
+
+    border: #dfe1e5 1px solid;
+}
+
+.cta-form {
+    color: white;
+    background-color: #b12a7d;
+    width: 50%;
+    margin: 20px 0;
+    padding: 20px;
+    border: none;
+}
+@media only screen and (max-width: 900px) {
+    .form {
+        height: 92vh;
+    }
+    .form-container {
+        flex-direction: column;
+        width: 85%;
+    }
+    .text-form {
+        width: 100%;
+    }
+    .form-card {
+        width: 100%;
+        padding: 20px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .form-card {
+        width: 75%;
+    }
+}
