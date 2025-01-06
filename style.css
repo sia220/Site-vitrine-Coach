@@ -341,3 +341,66 @@ h1 {
         width: 50%;
     }
 }
+/* Section abonnements */
+.abonnements {
+    text-align: center;
+    margin: 150px auto;
+    background-color: #fafbfc;
+}
+.title-abonnements h3 {
+    font-size: 45px;
+    font-weight: 700;
+}
+.title-abonnements p {
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+}
+.abonnements-container {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: center;
+}
+.forfait {
+    width: 100%;
+    background-color: white;
+    margin: 70px 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 45px 5px rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+.price {
+    font-weight: 700;
+    font-size: 40px;
+}
+.green-sell {
+    padding: 0;
+    text-align: center;
+}
+.green-sell li {
+    display: flex;
+    padding-bottom: 20px;
+    font-size: 14px;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+.green {
+    height: 20px;
+    margin: 10px;
+}
+.cta-forfait {
+    margin-top: auto;
+    font-weight: 300;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    display: inline-block;
+    background-color: #b12a7d;
+}
+@media only screen and (max-width: 900px) {
+    .abonnements-container {
+        flex-wrap: wrap;
+    }
+}
